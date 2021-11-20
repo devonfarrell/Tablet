@@ -546,8 +546,8 @@ q {
 @media screen and (min-width:600px) { 
 
 	img{
-		height: 200px;
-		width:450px;
+		/* height: 200px; */
+		width:100%
 	}
 
 
@@ -614,8 +614,8 @@ q {
 
 @media screen and (min-width: 850px) { 
 	img{
-		height: 200px;
-		width:450px;
+		height: 200px; 
+		width:100%;
 	}
 
 
