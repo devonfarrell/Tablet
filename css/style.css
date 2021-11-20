@@ -396,39 +396,6 @@ q {
 }
 
 
-
-/* .column {
-  width: 100%;
-  display: block;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-
-.content {
-	padding: 20px 30px;
-	background-color: white;
-	position: relative;
-	border-radius: 6px;
-  } */
-   
-/* .column {
-	float: left; 
-	width: 25%;
-	padding: 0 10px;
-  }
-  
-  
-.row {
-	margin: 0 -5px;}
-  
- 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-  } */
-
   /* Women Page */
   
 .card {
@@ -691,6 +658,11 @@ q {
 	
 	.cards__item{
 		width:50%;
+		
+	}
+
+	.cards__image{
+		width:100%;
 		
 	}
 
