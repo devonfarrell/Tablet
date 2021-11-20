@@ -345,7 +345,7 @@ q {
 	margin: 0 auto;
 }
 
-.single-box {
+.single-box, .box-right {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
