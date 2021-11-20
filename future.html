@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans"  rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/Women-of-the-MCU-25fzrrv-683x1024.jpeg"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Quotes found on https://www.impelfeed.com/article/female-quotes-from-the-marvel-cinematic-universe-part-1 -->
+
+	<title>Future Women</title>
+</head>
+<body>
+	<div class="skip"><a href="#skip">Skip to Main Content</a></div>
+	<header>
+	<img src="images/900x506_1.png" alt="Marvel Women Logo" id = "logo">
+
+	<nav>
+		<ul>
+		  <li><a href="index.html">About</a></li>
+		  <li><a href="women.html">Women</a></li>
+		  <li class="current"><a href="future.html">Future</a></li>
+		  <li><a href="timeline.html">Timeline</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	  </nav>
+
+	</header>
+<main id="skip">
+	<h1>Powerful Quotes from the Marvel Universe</h1>
+	<p>Click through to see quotes from the Women in the Marvel Universe</p>
+
+<div class="slideshow-container">
+
+	<!-- Full-width slides/quotes -->
+	<div class="mySlides">
+	  <q>Sometimes the world's greatest mircales happen by accident</q>
+	  <p class="author">- Skye</p>
+	</div>
+  
+	<div class="mySlides">
+	  <q>I am every inch the warrior you are. The screams of my victimes fill every field </q>
+	  <p class="author">- Nebula</p>
+	</div>
+  
+	<div class="mySlides">
+	  <q>The truth is a matter of circumstance, it is not all things to all people all the time. And neither am I</q>
+	  <p class="author">- Natasha Romanoff</p>
+	</div>
+  
+	<!-- Next/prev buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- Dots/bullets/indicators -->
+  <div class="dot-container">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+	  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+
+<button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+<button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+
+<h2>The Future Women in Marvel</h2>
+
+<p>See the Women that will be return and entering the Marvel Univesre this Year!</p>
+
+<div class="character">
+
+<div class="row-2">
+  <div class="column-2">
+    <h2>Yelena</h2>
+    <p>She will be taking over the baton from Black Widow and becoming a warrior queen. She is depicted as a spy and the second modern era character to use the Black Widow name and start a new journey.</p>
+  </div>
+  <div class="column-2">
+    <h2>Sersi</h2>
+    <p>Sersi will star in the Etnerals, she has the ability to manipulate every matter. She is often a socializer that gathers together the Eternals. She has been known to scarfice her self for the common good. </p>
+  </div>
+</div>
+
+<div class="row-2">
+  <div class="column-2">
+    <h2>Thena</h2>
+    <p>Thena will star in the Etnerals and has the ability to be a very strong warrior. Thena has held the highest title of Prime Eternal and also a known socializer.</p>
+  </div>
+  <div class="column-2">
+    <h2>Shuri</h2>
+    <p>Shuri will star in the new Blank Panther movie leading Wakanda to glory again. Shuri is the princess of Wakanda and the leader of the Wakadan Design Group. </p>
+  </div>
+</div>
+
+<div class="row-2">
+	<div class="column-2">
+	  <h2>Ajak</h2>
+	  <p>Ajak will star in the Enterals and is the spirtual and knowledgeable leader. Ajak purpose in life is to pave the way for Earth's Emergence.  </p>
+	</div>
+	<div class="column-2">
+	  <h2>Jane</h2>
+	  <p>Jane Foster will star in the upcoming Thor movie as the powerful Mighty Thor. Dr. Foster is one of the world's leading atrophysicists. </p>
+	</div>
+  </div>
+
+
+<div class="row-2">
+	<div class="column-2">
+	  <h2>Kate Bishop</h2>
+	  <p>Kate Bishop will star in Hawkeye and is an archer and martial artist. Kate has leaned on Hawkeye for guideance and support in becoming an Avenger.</p>
+	</div>
+	<div class="column-2">
+		<h2>Miss America</h2>
+		<p>The young teenage will become a strong force in Doctor Strange. As a lesbian, she is Marvel's first LGBTQ character to star in an ongoing series as a young teenager.  </p>
+	  </div>
+  </div>
+
+  </div>
+
+<script>
+	// Get the elements with class="column"
+var elements = document.getElementsByClassName("column-2");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+}
+</script>
+
+
+
+</main>
+<footer>
+  <p>University of Michigan School of Information <br/>
+    &copy; Devon Farrell - Web Design 2021</p>
+</footer>
+</body>
+</html>
